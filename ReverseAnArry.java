@@ -1,20 +1,30 @@
 import java.util.*;
-public class ReverseAnArry {
+class Solution {
+    public void convertDateToBinary(String date) {
 
-    public static void reverseArry(int arr[]){
-        int n = arr.length;
-        for(int i =0;i<arr.length/2;i++){
-            int temp = arr[i];
-            arr[i]=arr[n-1];
-            arr[n-1]=temp;
-            n--;
-        }
+       String parts[] = date.split("-") ;
+
+       String year = parts[0];
+       String mm = parts[1];
+       String dd = parts[2];
+
+       int yyyyInt= Integer.parseInt(year);
+       int mmInt = Integer.parseInt(mm);
+       int ddInt = Integer.parseInt(dd);
+
+
+       String binaryIntYYYY = Integer.toBinaryString(yyyyInt);
+       String binaryIntMM = Integer.toBinaryString(mmInt);
+       String binaryIntDD = Integer.toBinaryString(ddInt);
+
+
+       System.out.println(binaryIntYYYY+"-"+binaryIntMM+"-"+binaryIntDD);
+       
     }
-    public static void main(String[] args) {
-        int arr[]= {2,4,6,8,10,12,14,16,18,20};
-         reverseArry(arr);
-        for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]);
-        }
-    }
+    
+    
+    public  void main(String args[]){
+        convertDateToBinary("2080-10-03");
 }
+
+    }
