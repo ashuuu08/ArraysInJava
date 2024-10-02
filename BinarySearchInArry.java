@@ -1,3 +1,4 @@
+
 public class BinarySearchInArry {
 
     public static int binarySearch(int number[],int key){

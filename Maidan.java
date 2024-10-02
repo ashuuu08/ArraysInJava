@@ -1,4 +1,4 @@
-class Maidan {
+public class Maidan {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
              int n = nums1.length;
         int m = nums2.length;
@@ -27,7 +27,7 @@ class Maidan {
         }
     }
 
-    public void main(String [] args){
+    public static  void main(String[] args){
         int [] num1={1,2};
         int [] num2={3,4};
         System.out.print(findMedianSortedArrays(num1,num2));

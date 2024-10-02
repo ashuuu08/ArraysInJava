@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AllPosiblePairsOfArry",
+            "request": "launch",
+            "mainClass": "AllPosiblePairsOfArry",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchInArry",
+            "request": "launch",
+            "mainClass": "BinarySearchInArry",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "BuysellStockes",
+            "request": "launch",
+            "mainClass": "BuysellStockes",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "CreateArry",
+            "request": "launch",
+            "mainClass": "CreateArry",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "FindThesubArrays",
+            "request": "launch",
+            "mainClass": "FindThesubArrays",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "KthLargest",
+            "request": "launch",
+            "mainClass": "KthLargest",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "LargestInArry",
+            "request": "launch",
+            "mainClass": "LargestInArry",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "Maidan",
+            "request": "launch",
+            "mainClass": "Maidan",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumOFSubarraysUSingPrifix",
+            "request": "launch",
+            "mainClass": "MaxSumOFSubarraysUSingPrifix",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicateFromArry",
+            "request": "launch",
+            "mainClass": "RemoveDuplicateFromArry",
+            "projectName": "arry_bb882928"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "arry_bb882928"
+        }
+    ]
+}
